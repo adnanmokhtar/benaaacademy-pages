@@ -1,0 +1,24 @@
+{
+    "name": "benaaacademy/pages",
+    "description": "The pages plugin of benaaacademy/platform",
+    "keywords": [
+        "framework",
+        "laravel",
+        "cms",
+        "plugins",
+        "platform",
+        "benaaacademy",
+        "pages"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "require": {
+        "benaaacademy/platform": "0.5.*",
+        "benaaacademy/tags": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Benaaacademy\\Pages\\": "src"
+        }
+    }
+}
